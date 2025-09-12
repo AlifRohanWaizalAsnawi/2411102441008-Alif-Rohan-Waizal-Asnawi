@@ -1,0 +1,266 @@
+/* Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #fbfbfb;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, #3498db, #2c3e50);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  color: #34495e;
+  border-bottom: 2px solid #34495e;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.section {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Decoration */
+.decoration-none {
+  text-decoration: none;
+}
+
+.decoration-underline {
+  text-decoration: underline;
+  text-decoration-color: #3498db;
+}
+
+.decoration-overline {
+  text-decoration: overline;
+  text-decoration-color: #e74c3c;
+}
+
+.decoration-through {
+  text-decoration: line-through;
+  text-decoration-color: #95a5a6;
+}
+
+.decoration-multiple {
+  text-decoration: underline overline;
+  text-decoration-color: #9b59b6;
+}
+
+/* Transform */
+.transform-none {
+  text-transform: none;
+}
+
+.transform-uppercase {
+  text-transform: uppercase;
+  color: #34c7c7;
+  font-weight: bold;
+}
+
+.transform-lowercase {
+  text-transform: lowercase;
+  color: #3498db;
+}
+
+.transform-capitalize {
+  text-transform: capitalize;
+  color: #27ae60;
+  font-weight: 600;
+}
+
+/* Align */
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+  background: #ecf0f1;
+  padding: 10px;
+}
+
+.align-right {
+  text-align: right;
+  background: #fdeaea;
+  padding: 10px;
+}
+
+.align-justify {
+  text-align: justify;
+  background: #e4f8e4;
+  padding: 15px;
+  border-left: 4px solid #27ae60;
+}
+/*
+ * Font Family */
+.font-serif {
+  font-family: 'Times New Roman', serif;
+}
+
+.font-sans {
+  font-family: Arial, sans-serif;
+}
+
+.font-mono {
+  font-family: 'Courier New', monospace;
+  background: #f9f9fa;
+  padding: 1px;
+}
+
+.font-custom {
+  font-family: 'Roboto', sans-serif;
+  color: #a1a1a1;
+}
+
+/*
+ * Font Size */
+.size-small {
+  font-size: 10px;
+}
+
+.size-normal {
+  font-size: 16px;
+}
+
+.size-large {
+  font-size: 20px;
+}
+
+.size-xlarge {
+  font-size: 32px;
+}
+
+.size-em {
+  font-size: 1.5em;
+}
+
+.size-rem {
+  font-size: 1.2rem;
+}
+
+/*
+ * Font Weight */
+.weight-thin {
+  font-weight: 100;
+}
+
+.weight-normal {
+  font-weight: 400;
+}
+
+.weight-bold {
+  font-weight: 700;
+}
+
+.weight-bolder {
+  font-weight: bolder;
+}
+
+.weight-900 {
+  font-weight: 900;
+}
+
+/*
+ * Font Style */
+.style-normal {
+  font-style: normal;
+}
+
+.style-italic {
+  font-style: italic;
+}
+
+.style-oblique {
+  font-style: oblique;
+}
+
+/*
+ * Line Height */
+.line-small {
+  line-height: 1.2;
+  background: #ffcbee;
+  padding: 10px;
+}
+
+.line-normal {
+  line-height: 1.6;
+  background: #e2f2d4;
+  padding: 10px;
+}
+
+.line-large {
+  line-height: 2;
+  background: #f1f5f5;
+  padding: 10px;
+}
+
+/*
+ * Letter Spacing */
+.ls-tight {
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.ls-normal {
+  letter-spacing: normal;
+}
+
+.ls-wide {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #e44c4d;
+}
+
+/*
+ * Word Spacing */
+.ws-normal {
+  word-spacing: normal;
+}
+
+.ws-wide {
+  word-spacing: 10px;
+  background: #fff3ee;
+  padding: 10px;
+}
+
+/*
+ * Shadow */
+.shadow-simple {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.shadow-colored {
+  text-shadow: 2px 2px 5px #b3a4a9;
+  color: #c2c3d1;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.shadow-multiple {
+  text-shadow: 2px 2px 0 #fff, 4px 4px 0 #f00, 6px 6px 0 #00f, 8px 8px 0 #ff0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shadow-glow {
+  text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
