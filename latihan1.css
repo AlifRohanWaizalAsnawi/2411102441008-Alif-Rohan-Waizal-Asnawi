@@ -1,0 +1,195 @@
+/*
+  * Latihan 1
+  * Styling for body and headings */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  color: #2196f3;
+  border-bottom: 2px solid #2196f3;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #ff9800;
+}
+
+/*
+  * Styling for paragraphs */
+p {
+  color: #666;
+  font-size: 16px;
+}
+
+/*
+  * Styling for lists */
+li {
+  margin-bottom: 5px;
+}
+
+ul {
+  background-color: white;
+  padding: 15px;
+  border-left: 4px solid #4caf50;
+}
+
+/*
+  * Class selectors */
+.highlight {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info-box {
+  background-color: #e7f3ff;
+  border: 1px solid #2196f3;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+h2 {
+  color: #2196F3;
+  border-bottom: 2px solid #2196F3;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #FF9800;
+}
+
+/* Styling untuk paragraf */
+p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Styling untuk list */
+ul {
+  background-color: white;
+  padding: 15px;
+  border-left: 4px solid #4CAF50;
+}
+/* LATIHAN 2 */
+
+/*
+ * Styling for body and headings */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/*
+ * Class selector */
+.highlight {
+  background-color: #fff3cd;
+  padding: 10px;
+  border-left: 4px solid #ffc107;
+  margin: 10px 0;
+}
+
+.warning {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+}
+
+/*
+ * Child selector */
+.menu li {
+  background-color: #90ee90;
+  padding: 8px;
+  margin: 5px 0;
+  list-style-type: none;
+}
+
+.menu li li {
+  background-color: #f8f9fa;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+/*
+ * Pseudo-class selector */
+.links a {
+  color: #007bff;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: inline-block;
+  border: 1px solid transparent;
+}
+
+.links a:hover {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/*
+ * Attribute selector */
+button[type="button"] {
+  background-color: #ffc107;
+  color: #212529;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #e0a800;
+}
+
+/*
+ * Grouping selector */
+h3, h4, h5, h6 {
+  color: #5f4c14;
+  font-family: Georgia, serif;
+  margin: 15px 0 5px 0;
+}
+
+/*
+ * Universal selector */
+* {
+  box-sizing: border-box;
+}
+
+/*
+ * Pseudo-element selector */
+.container::before {
+  content: "▶️";
+  font-size: 20px;
+}
+
+.warning::after {
+  content: "⚠️";
+}
