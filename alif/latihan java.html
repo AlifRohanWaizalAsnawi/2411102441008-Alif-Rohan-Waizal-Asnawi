@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan JavaScript - Cuaca</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f6fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 300px;
+    }
+    input {
+      padding: 8px;
+      width: 80%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 8px 12px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Weather Dashboard</h2>
+    <p>Masukkan nama kota untuk melihat cuaca</p>
+    <input type="text" id="cityInput" placeholder="Contoh: Samarinda">
+    <br>
+    <button id="showBtn">Tampilkan Cuaca</button>
+  </div>
+
+  <!-- Script dipisah -->
+  <script src="script(latihan).js"></script>
+</body>
+</html>
