@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input data mahasiswa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="col-sm-3">
+        <div class="card">
+            <div class="card-body">
+    <h2>Input Data</h2>
+    <form id="dataForm" class="mb-3" style="max-width: 400px;">
+        <div class="mb-3">
+            <label for="nama" class="form-label">Nama Lengkap</label>
+            <input type="text" id="nama" class="form-control" placeholder="Masukkan nama">
+        </div>
+
+        <div class="mb-3">
+            <label for="nim" class="form-label">NIM</label>
+            <input type="text" id="nim" class="form-control" placeholder="Masukkan NIM">
+        </div>
+
+        <div class="mb-3">
+            <label for="semester" class="form-label">Semester</label>
+            <input type="number" id="semester" class="form-control" placeholder="Masukkan Semester">
+        </div>
+
+        <div class="mb-3">
+            <label for="prodi" class="form-label">Program Studi</label>
+            <select class="form-control" id="prodi">
+                <option>- Pilih -</option>
+                <option>Teknik Informatika</option>
+                <option>Teknik Mesin</option>
+                <option>Teknik Geologi</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+             <input type="email" id="email" class="form-control" placeholder="Masukkan Email">
+        </div>
+        <div class="d-grid gap-2 d-md-block">
+        <button type="submit" class="btn btn-dark">KIRIM DATA</button>
+        </div>
+    </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-3">
+    <div class="card">
+        <h2>Informasi Pengiriman</h2>
+        <div class="card-header">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">
+            Apa yang terjadi saat anda klik "Kirim Diatas"?
+            </h5>
+            <p class="card-text">
+            - Data ditampilkan di console<br>
+            - Data disimpan di array<br>
+            - Jumlah data diupdate<br>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="col-mt-3">
+    <div class="card">
+        <h5 class="card-title">
+            Table mahasiswa
+        </h5>
+        <div class="card-body">
+            <table class="table table-bordered table-striped text-center">
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>NIM</th>
+                    <th>Info</th>
+                </tr>
+                <tbody id="dataTabel">
+                    <tr>
+                        <td>1</td>
+                        <td>erfyan hamid </td>
+                        <td>2411102441090</td>
+                        <td text-center>
+                            Prodi: Teknik Informatika<br>
+                            Semester: 3<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>bagas dribble</td>
+                        <td>2411102441999</td>
+                        <td text-center>
+                            Prodi: Teknik Informatika<br>
+                            Semester: 3<br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="simulasi-data.js"></script>
+</body>
+</html>
